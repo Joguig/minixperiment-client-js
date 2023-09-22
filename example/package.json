@@ -1,0 +1,14 @@
+{
+  "name": "minixperiment-client-example",
+  "private": true,
+  "version": "0.3.0",
+  "description": "Example implementation of the Minixperiment JS client",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "rm -f ./node_modules/minixperiment-client && ln -s ../..  ./node_modules/minixperiment-client && webpack-dev-server --content-base public/"
+  },
+  "dependencies": {
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

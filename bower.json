@@ -1,0 +1,27 @@
+{
+  "name": "minixperiment-client",
+  "description": "Split testing client for Javascript",
+  "main": "lib/client.js",
+  "authors": [
+    "Scott Rabin <srabin@twitch.tv>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "splittest",
+    "ab"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "example",
+    "spec",
+    "release-transpiled.sh",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "crypto-js": "~3.1.6"
+  }
+}

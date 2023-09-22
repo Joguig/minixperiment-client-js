@@ -1,0 +1,32 @@
+{
+  "name": "minixperiment-client-js",
+  "version": "0.6.0",
+  "description": "Split testing client for Javascript",
+  "main": "lib/client.js",
+  "files": [
+    "bower_components",
+    "lib"
+  ],
+  "scripts": {
+    "amd": "./release-transpiled.sh -m amd",
+    "umd": "./release-transpiled.sh -m umd",
+    "test": "jasmine"
+  },
+  "keywords": [
+    "splittest",
+    "ab"
+  ],
+  "author": "Scott Rabin <srabin@twitch.tv>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@git-aws.internal.justin.tv:common/minixperiment-client.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-webpack": "^1.0.8",
+    "jasmine": "^2.3.2",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
